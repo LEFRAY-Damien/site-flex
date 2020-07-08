@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essais Flex</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAV BARRE -->
+    <nav class="cont-flex bg-gray cont-flex5">
+        <div class="cont-flex">
+            <div class="bg-white">
+            <h3>Titre</h3>
+            </div>
+        </div>
+
+        <div class="cont-flex">
+            <ul>
+                <li class="item"><a href="#welcome">Welcome</a></li>
+                <li class="item"><a href="#actus">Actus</a></li>
+                <li class="item"><a href="#contact">Contacts</a></li>
+                <li class="item"><a href="#basdepage">Map</a></li>
+            </ul> 
+        </div>          
+    </nav>
+    <!-- WELCOME -->
+    
+<section id="welcome">
+    <div class="cont-flex bg-wheat">
+        <div class="welcome">
+            <h1>Welcome en FLEX</h1>
+        </div>
+    </div>
+</section>
+    <!-- ACTUS -->
+
+<section id="actus">  
+    <div class="cont-flex2 bg-seagreen">
+
+        <div class="actu">
+            <h2>Actu</h2>
+        </div>
+
+        <div class="cont-flex6 bg-seagreen">
+
+            <div class="item1 bg-blueviolet">
+                <div class="cont-flex2">
+                    <div class="img" style="background-image: url(assets/images/img1.jpg);">
+                    </div>
+                    <div class="titre">
+                        <h4>titre 1</h4>
+                    </div>
+                    <div class="texte">
+                        <p>Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                            Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                            Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                        </p>
+                    </div>
+                    <div class="date">
+                        <p>30.06.20</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item2 bg-blueviolet">
+                <div class="cont-flex2">
+                    <div class="img" style="background-image: url(assets/images/img2.jpg);">
+                    </div>
+                    <div class="titre">
+                        <h4>titre 2</h4>
+                    </div>
+                    <div class="texte">
+                        <p>Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                            Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                            Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                        </p>
+                    </div>
+                    <div class="date">
+                        <p>30.06.20</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item3 bg-blueviolet">
+                <div class="cont-flex2">
+                    <div class="img" style="background-image: url(assets/images/img3.jpg);">
+                    </div>
+                    <div class="titre">
+                        <h4>titre 3</h4>
+                    </div>
+                    <div class="texte">
+                        <p>Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                            Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                            Lorem ipsum dolor sit ame.Lorem ipsum dolor sit ame.
+                        </p>
+                    </div>
+                    <div class="date">
+                        <p>30.06.20</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>  
+    <!-- CONTACTS -->
+
+<section id="contact">
+    <div class="cont-flex2 bg-lightcoral">
+
+        <div class="contact">
+            <h2>Contacts</h2>
+        </div>
+
+        <div class="cont-flex7 bg-lightcoral">
+            <div class="name">
+                <label>Nom:</label>
+                <input type="text" id="Nom">
+            </div>
+            <div class="name">
+                <label>Mail:</label>
+                <input type="email" id="mail">
+            </div>
+        </div>
+
+        <div class="cont-flex bg-lightcoral">
+            <div class="sujet">
+                <label>Sujet:</label>
+                <input type="text" id="sujet">
+            </div>
+        </div>
+
+        <div class="cont-flex bg-lightcoral">
+            <div class="message">
+                <label>Message:</label>
+                <textarea id="message" cols="45" rows="8"></textarea>
+            </div>
+        </div>
+
+        <div class="cont-flex bg-lightcoral">
+            <div class="btn">
+                <button>Envoyer</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- BAS DE PAGE -->
+
+<section id="basdepage">
+    <div class="cont-flex4 bg-lightgreen">
+
+        <div class="cont-flex2">
+            <h3>Contact</h3>
+            <div class="cont-flex btn">
+                <a href="/">Nous</a>
+            </div>
+            <div class="cont-flex btn">
+                <a href="/">Vous</a>
+            </div>
+            <div class="cont-flex btn">
+                <a href="/">Eux</a>
+            </div>
+        </div>
+
+        <div class="cont-flex2">
+            <h3>Site map</h3>
+            <div class="cont-flex btn">
+                <a href="/">Par ici</a>
+            </div>
+            <div class="cont-flex btn">
+                <a href="/">Par la</a>
+            </div>
+            <div class="cont-flex btn">
+                <a href="/">Encore ici</a>
+            </div>
+        </div>
+
+        <div class="cont-flex2">
+            <h3>Social</h3>
+            <div class="cont-flex btn">
+                <a href="/">la classe</a>
+            </div>
+            <div class="cont-flex btn">
+                <a href="/">la salle</a>
+            </div>
+            <div class="cont-flex btn">
+                <a href="/">le groupe</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- FOOTER -->
+
+    <div class="cont-flex3 bg-black">
+        <footer>
+            <div class="ml">
+                <p>Site en Flex. <a href="/">Mention legal</a></p>
+            </div>
+    </div>
+    </footer>
+
+</body>
+
+</html>

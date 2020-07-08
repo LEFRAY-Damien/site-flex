@@ -1,0 +1,106 @@
+/* BODY */
+/*SANS MARGE NI PADDING */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* FLEX */
+.cont-flex {display: flex;}
+
+.cont-flex2 {display: flex; flex-direction: column;}
+
+.cont-flex3 {display: flex; justify-content: center;}
+
+.cont-flex4 {display: flex; justify-content: space-around;}
+
+.cont-flex5 {justify-content: space-between;}
+
+.cont-flex6 {display: flex;}
+
+.cont-flex7{display: flex;justify-content: center;}
+
+
+
+/* COULEURS */
+.bg-wheat {background-color: wheat;}
+
+.bg-seagreen {background-color: seagreen;}
+
+.bg-blueviolet {background-color: blueviolet;}
+
+.bg-lightcoral {background-color: lightcoral;}
+
+.bg-lightgreen {background-color: lightgreen;}
+
+.bg-black {background-color: black;}
+
+.bg-gray {background-color: gray;}
+
+.bg-white {color: white;}
+
+/* CONTENU */
+.welcome {height: 200px; margin: auto; margin-top: 45px;}
+
+.item1 {width: 33%; margin: 10px; padding: 10px;}
+
+.item2 {width: 33%;margin: 10px;padding: 10px;}
+
+.item3 {width: 33%;margin: 10px;padding: 10px;}
+
+.actu {height: 100px;margin: auto;margin-top: 45px;}
+
+.contact {height: 60px;margin: auto;margin-top: 45px;}
+
+.name {margin: 20px;}
+
+.sujet {margin: auto;margin-bottom: 20px;}
+
+.message {margin: auto;margin-bottom: 30px;}
+
+.btn {margin: auto;margin-bottom: 20px;}
+
+.ml {color: blanchedalmond;background-color: black;text-align: center;height: 25px;}
+
+.ml a {color: blanchedalmond;}
+
+/* IMAGES */
+
+.img {display: block;background-size: cover;background-position: top center;background-repeat: no-repeat;height: 100px;}
+
+.titre {height: 20px;margin-bottom: 15px;}
+
+.date {margin-bottom: 10px;text-align: right;}
+
+/* NAV BARRE */
+ul {list-style-type: none;/* retirer les balles et les marges et le remplissage de la liste */margin: 0;padding: 0;width: 100%;overflow: hidden;/* defini le depassement */}
+
+li {float: left;}
+
+li a {display: block;padding: 10px;text-decoration: none;/* liens non souligné */}
+
+a {color: white;}
+
+nav {position: fixed;top: 0;width: 100%;}
+
+.item {padding: 4px;margin: 4px;}
+
+/* RESPONCIVE*/
+/* @media screen and .....  SI L ECRANT EST INFERIEUR A ...px */
+
+@media screen and (max-width: 680px) {
+
+/* CLASS ACTU */
+.item1{min-width: 60%;width: auto;margin: 10px;padding: 10px;}
+
+.item2{min-width: 60%;width: auto;margin: 10px;padding: 10px;}
+
+.item3{min-width: 60%;width: auto;margin: 10px;padding: 10px;}
+
+.cont-flex6{flex-direction: column;}
+
+
+/* CLASS CONTACTS */
+.cont-flex7{flex-direction: column; margin: auto;}
+
+}
